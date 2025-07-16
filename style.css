@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('https://images.unsplash.com/photo-1521791136064-7986c2920216') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 450px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card h1 {
+  font-size: 28px;
+  color: #333;
+  margin: 20px 0 10px;
+}
+
+.desc {
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.intern-image {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  height: 200px;
+}
+
+.points {
+  text-align: left;
+  margin: 20px 0;
+  list-style: none;
+  color: #444;
+  font-size: 14px;
+}
+
+.points li {
+  margin-bottom: 10px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.btn.primary {
+  background-color: #0077ff;
+  color: white;
+}
+
+.btn.primary:hover {
+  background-color: #005fd1;
+}
+
+.btn.secondary {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.btn.secondary:hover {
+  background-color: #e0e0e0;
+}
